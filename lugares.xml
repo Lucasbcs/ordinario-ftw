@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lugares>
+  <lugar>
+    <nombre>Estatua de la Libertad</nombre>
+    <ubicacion>Isla de la Libertad</ubicacion>
+    <descripcion>Un símbolo de libertad y bienvenida a los inmigrantes que llegaron a América.</descripcion>
+  </lugar>
+  <lugar>
+    <nombre>Central Park</nombre>
+    <ubicacion>Manhattan</ubicacion>
+    <descripcion>Un enorme parque urbano con lagos, caminos y espacios culturales.</descripcion>
+  </lugar>
+  <lugar>
+    <nombre>Times Square</nombre>
+    <ubicacion>Midtown Manhattan</ubicacion>
+    <descripcion>Centro de entretenimiento, luces brillantes y teatros de Broadway.</descripcion>
+  </lugar>
+</lugares>

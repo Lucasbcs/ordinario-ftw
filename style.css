@@ -1,0 +1,226 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #003366;
+}
+
+img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1.5em 0;
+  padding-left: 1em;
+  border-left: 4px solid #003366;
+  color: #555;
+}
+
+button {
+  display: block;
+  margin: 2em auto;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004c99;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #003366;
+  color: white;
+  margin-top: 2em;
+}
+
+/* Estilo para la tabla de lugares */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.8em;
+  text-align: left;
+}
+
+th {
+  background-color: #003366;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img.decorativa {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1em;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el formulario */
+.formulario-visita {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-visita label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.formulario-visita input[type="text"],
+.formulario-visita input[type="email"],
+.formulario-visita input[type="password"],
+.formulario-visita input[type="range"] {
+  width: 100%;
+  padding: 0.6em;
+  margin-top: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.grupo-radio {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.formulario-visita input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+.botones-formulario {
+  margin-top: 2em;
+  display: flex;
+  gap: 1em;
+}
+
+.botones-formulario button {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botones-formulario button:hover {
+  background-color: #004d99;
+}
+
+/* Contenedor para la sección de lugares */
+.contenedor-lugares {
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contenedor para las imágenes */
+.imagenes-lugares {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.imagenes-lugares img {
+  width: 30%;
+  max-width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+  height: 180px;
+}
+
+/* Tabla */
+#tablaLugares {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tablaLugares th,
+#tablaLugares td {
+  border: 1px solid #ccc;
+  padding: 0.8em;
+  text-align: left;
+}
+
+#tablaLugares th {
+  background-color: #003366;
+  color: white;
+}
+
+#tablaLugares tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+

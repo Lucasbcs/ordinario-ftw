@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planifica tu visita - Descubre Nueva York</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Descubre Nueva York</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="formulario.html">Planifica tu visita</a></li>
+        <li><a href="lugares.html">Lugares populares</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Planifica tu visita</h2>
+      <p>Completa el siguiente formulario para comenzar a planear tu aventura en Nueva York:</p>
+
+      <form onsubmit="return validarFormulario()" class="formulario-visita">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Contraseña para tu cuenta:</label>
+        <input type="password" id="password" name="password" required>
+
+        <p>¿Qué tipo de visita te interesa?</p>
+        <div class="grupo-radio">
+          <label><input type="radio" name="tipo" value="Cultural" required> Cultural</label>
+          <label><input type="radio" name="tipo" value="Gastronómica"> Gastronómica</label>
+          <label><input type="radio" name="tipo" value="Compras"> Compras</label>
+        </div>
+
+        <label><input type="checkbox" id="primera" name="primera"> Es mi primera vez visitando Nueva York</label>
+
+        <label for="presupuesto">Rango de presupuesto (USD):</label>
+        <input type="range" id="presupuesto" name="presupuesto" min="500" max="5000" step="100">
+
+        <div class="botones-formulario">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </div>
+      </form>
+    </article>
+
+    <aside>
+      <h3>Consejo útil</h3>
+      <p>Recuerda llevar calzado cómodo para explorar la ciudad a pie. ¡Nueva York se disfruta mejor caminando!</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Descubre Nueva York. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
